@@ -13,6 +13,7 @@ body {
   padding: 50px;
   border-radius: 6px;
   align-content: center;
+  box-shadow: 3px 3px 5px black;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 }
 
 h1 span {
-  color: #4adf86;
+  color: #0ea5e9;
   font-size: 40px;
   font-weight: 800;
   margin-bottom: 10px;
@@ -37,7 +38,20 @@ p {
 }
 
 #btn {
-  background: #10b981;
+  background: #0ea5e9;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  width: 191px;
+  cursor: pointer;
+  box-shadow: 3px 3px 5px black;
+}
+
+#reset {
+  background: #0ea5e9;
   border: none;
   border-radius: 5px;
   color: aliceblue;
@@ -50,10 +64,14 @@ p {
 }
 
 #btn:hover {
-  background: #0ea5e9;
+  background: #10b981;
   transition: 0.75s;
 }
 
+#reset:hover {
+  background: #b91010;
+  transition: 0.75s;
+}
 #passwords {
   display: flex;
   gap: 20px;

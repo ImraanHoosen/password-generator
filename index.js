@@ -96,6 +96,7 @@ const characters = [
 // DOM elements for displaying the generated passwords
 const password1El = document.getElementById("form-one");
 const password2El = document.getElementById("form-two");
+const resetBtn = document.getElementById("reset");
 
 // Constant for the length of the password
 const passwordLength = 15;
@@ -154,4 +155,15 @@ password2El.addEventListener("click", function () {
     // Alert the user that the password has been copied
     alert("Password copied to clipboard!");
   }
+});
+
+// Reset the password elements to their initial state when the reset button is clicked
+resetBtn.addEventListener("click", function () {
+  // Clear the text content of the password elements
+  password1El.textContent = "";
+  password2El.textContent = "";
+
+  // Remove the 'active' class from the password elements
+  password1El.classList.remove("active");
+  password2El.classList.remove("active");
 });
