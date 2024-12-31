@@ -74,7 +74,7 @@ hr {
   color: #4adf86;
   font-size: 16px;
   font-weight: 500;
-  cursor: not-allowed; //Disabled cursor initially//
+  cursor: not-allowed;
 }
 .form:hover {
   background: #0c4a6e;
