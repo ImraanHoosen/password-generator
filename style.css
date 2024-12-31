@@ -1,0 +1,85 @@
+body {
+  font-family: karla;
+  background: #1c1c1c;
+  margin: 65px;
+}
+
+#container {
+  margin: auto;
+  height: auto;
+  width: 400px;
+  background: #2a2e39;
+  color: white;
+  padding: 50px;
+  border-radius: 6px;
+  align-content: center;
+}
+
+h1 {
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0;
+  text-shadow: 5px 5px 3px #1c1c1c;
+}
+
+h1 span {
+  color: #4adf86;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #d5d4d8;
+}
+
+#btn {
+  background: #10b981;
+  border: none;
+  border-radius: 5px;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  width: 191px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #0ea5e9;
+  transition: 0.75s;
+}
+
+#passwords {
+  display: flex;
+  gap: 20px;
+}
+
+hr {
+  border: 1px solid #536e94;
+  margin: 35px 0;
+}
+
+.form {
+  height: 40px;
+  width: 210px;
+  background: #273549;
+  border-radius: 6px;
+  text-align: center;
+  align-content: center;
+  color: #0ea5e9;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: not-allowed; /* Disabled cursor initially */
+}
+.form:hover {
+  background: #0c4a6e;
+  transition: 0.75s;
+}
+
+.form:active {
+  cursor: pointer;
+}
