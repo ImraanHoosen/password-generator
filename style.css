@@ -46,6 +46,7 @@ p {
   height: 42px;
   width: 191px;
   cursor: pointer;
+  box-shadow: 3px 3px 5px black;
 }
 
 #btn:hover {
@@ -70,16 +71,16 @@ hr {
   border-radius: 6px;
   text-align: center;
   align-content: center;
-  color: #0ea5e9;
+  color: #4adf86;
   font-size: 16px;
   font-weight: 500;
-  cursor: not-allowed; /* Disabled cursor initially */
+  cursor: not-allowed; //Disabled cursor initially//
 }
 .form:hover {
   background: #0c4a6e;
   transition: 0.75s;
 }
 
-.form:active {
+.form.active {
   cursor: pointer;
 }
