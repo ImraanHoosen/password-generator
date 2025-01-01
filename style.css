@@ -20,7 +20,7 @@ h1 {
   font-size: 35px;
   font-weight: 600;
   margin: 0;
-  text-shadow: 5px 5px 3px #1c1c1c;
+  text-shadow: 7px 7px 3.5px #1c1c1c;
 }
 
 h1 span {
@@ -68,11 +68,15 @@ p {
 #btn:hover {
   background: #10b981;
   transition: 0.75s;
+  box-shadow: 0px 0px 2px #10b98100, 0px 0px 4px #10b924, 0px 0px 6px #10b981,
+    0px 0px 15px #10b981;
 }
 
 #reset:hover {
   background: #b91010;
   transition: 0.75s;
+  box-shadow: 0px 0px 2px #b91010, 0px 0px 4px #b91010, 0px 0px 6px #b91010,
+    0px 0px 15px #b91010;
 }
 #passwords {
   display: flex;
